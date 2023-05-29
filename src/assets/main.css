@@ -1,0 +1,13 @@
+
+@import './reset.css';
+@import './flexboxgrid.css';
+
+.container {
+  max-width: 620px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+body {
+  background: #ecf0f3;
+}
