@@ -1,24 +1,20 @@
 <template>
-
-  <catalog></catalog>
-
+  <HeaderPage />
+  <RouterView />
+  <FooterPage />
+  
 </template>
 
+<script>
+import HeaderPage from '@/components/HeaderPage.vue';
+import FooterPage from '@/components/FooterPage.vue';
 
-<script lang="js">
-
-import catalog from '@/views/catalog.vue'
-
-export default ({
-  name: 'App',
-
-  components: {
-    catalog
+export default {
+    components: {
+      HeaderPage, FooterPage
+    },
   }
-})
 </script>
 
-
-<style lang="scss" scored>
-
+<style lang="scss">
 </style>

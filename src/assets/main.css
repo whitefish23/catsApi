@@ -3,7 +3,7 @@
 @import './flexboxgrid.css';
 
 .container {
-  max-width: 620px;
+  max-width: 1240px;
   padding: 0 20px;
   margin: 0 auto;
 }
